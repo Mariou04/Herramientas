@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Desktop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">GitHub Desktop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#windows">Windows</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#macos">macOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#linux">Linux</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <h2 id="windows">Windows:</h2>
+  <p>Visita el sitio web oficial de GitHub Desktop en <a href="https://desktop.github.com/">https://desktop.github.com/</a>.</p>
+  <p>Haz clic en el botón "Download for Windows".</p>
+  <p>Una vez descargado el instalador, haz doble clic en él para iniciar el proceso de instalación.</p>
+  <p>Sigue las instrucciones del instalador para completar la instalación.</p>
+  <p>Después de la instalación, podrás iniciar GitHub Desktop desde el menú de inicio o el escritorio.</p>
+
+  <h2 id="macos">macOS:</h2>
+  <p>Ve al sitio web oficial de GitHub Desktop en <a href="https://desktop.github.com/">https://desktop.github.com/</a>.</p>
+  <p>Haz clic en el botón "Download for macOS".</p>
+  <p>Abre el archivo descargado (.dmg) y arrastra la aplicación a la carpeta de Aplicaciones.</p>
+  <p>Una vez completada la copia, puedes abrir GitHub Desktop desde Launchpad o Finder.</p>
+  <p>Si macOS muestra un mensaje de seguridad sobre una aplicación descargada, sigue las instrucciones para permitir la ejecución de GitHub Desktop.</p>
+
+  <h2 id="linux">Linux:</h2>
+  <p>Actualmente, GitHub Desktop solo está disponible para Windows y macOS. Sin embargo, puedes utilizar la versión web de GitHub para acceder a la mayoría de las funciones de GitHub. Simplemente visita <a href="https://github.com/">https://github.com/</a> en tu navegador web y accede a tu cuenta de GitHub.</p>
+
+  <h2>Configuración de Nombre y Correo Electrónico:</h2>
+  <p>Una vez que hayas iniciado sesión con tu cuenta de GitHub, GitHub Desktop utilizará automáticamente el nombre y correo electrónico asociados con tu cuenta de GitHub para los commits realizados desde la aplicación.</p>
+
+  <h2>Confirmación de la Configuración:</h2>
+  <p>Para verificar que la configuración se haya realizado correctamente, puedes hacer un commit en cualquier repositorio en el que estés trabajando. El nombre y correo electrónico asociados con tu cuenta de GitHub se reflejarán en los metadatos de los commits.</p>
+
+  <h2>Inicializar un repositorio local</h2>
+  <p>Descargar GitHub Desktop: Primero, necesitas descargar e instalar GitHub Desktop en tu computadora. Puedes hacerlo desde el sitio web oficial: GitHub Desktop.</p>
+  <p>Abrir GitHub Desktop: Después de instalarlo, busca el ícono de GitHub Desktop en tu escritorio o menú de inicio y ábrelo.</p>
+  <p>Iniciar Sesión (Opcional): Si tienes una cuenta de GitHub, puedes iniciar sesión en GitHub Desktop para aprovechar todas las características adicionales. Sin embargo, si no tienes una cuenta de GitHub o prefieres no iniciar sesión en este momento, no hay problema, puedes continuar sin hacerlo.</p>
+  <p>Crear un Nuevo Repositorio: En la esquina superior izquierda de la ventana de GitHub Desktop, verás un botón que dice "Create a New Repository on your hard drive" (Crear un nuevo repositorio en tu disco duro). Haz clic en ese botón.</p>
+  <p>Configurar el Repositorio: Se abrirá una ventana donde podrás configurar tu nuevo repositorio. Aquí elige la ubicación en tu computadora donde deseas guardar el repositorio. También puedes darle un nombre al repositorio y, si quieres, una descripción.</p>
+  <p>Inicializar el Repositorio: Una vez que hayas configurado todo, haz clic en el botón "Create Repository" (Crear Repositorio). Esto creará el repositorio local en la ubicación que elegiste y GitHub Desktop creará un nuevo directorio en esa ubicación.</p>
+</div>
+
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p>&copy; 2024 GitHub Desktop</p>
+  </div>
+</footer>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
